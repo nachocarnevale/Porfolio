@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;1,500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.body_contenedor {
+    margin: 0% 10%;
+    background-color: rgba(21, 24, 52, 1);
+}
+
+li, a, button {
+    font-family: "Cairo", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+}
+
+.portfolio {
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: auto;
+    font-weight: bold;
+    color: rgb(160, 74, 240);;
+}
+
+.portfolio:hover {
+    color: rgb(0, 170, 192);
+}
+
+.nav-items {
+    list-style: none;
+}
+
+.nav-items li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-items li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-items li a:hover {
+    color: rgb(0, 217, 255);
+}
+
+button {
+    font-weight: bold;
+    padding: 5px 15px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgb(160, 74, 240);
+    color: white;
+}
+
+
+
+/* --- MAIN --- */ 
+/* --- MAIN --- */
+/* --- MAIN --- */
+
+
+
+.main-container {
+    margin-left: 8%;
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-between;
+
+}
+
+.main {
+    display: flex;
+    justify-content: start;
+    margin: 17% 0 17% 0;
+}
+
+.main p {    
+    width: 70%;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 33px;
+    color: white;
+}
+
+.main-img {
+
+    width: 40vh;
+    margin-left: auto;
+    border-radius: 50%;
+    box-shadow: 10px 5px 21px 0px rgba(255, 255, 255, 0.1);
+    border: 0.3vh solid #7d49ab;
+}
+
+.soy_container {
+    font-family: "Poppins";
+    font-size: 40px;
+    display: flex;
+    font-weight: 700;
+    font-style: bold    ;
+}
+
+.soy_flex {
+    display: flex;
+    margin-bottom: 1vh;
+}
+
+.soy {
+    margin-right: 2%;
+    color: white;
+}
+
+.nacho {
+    color: rgb(160, 74, 240);
+}
+
+
+.proyectos_container {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: 10vh;
+    font-size: 2vh;
+}
+
+.proyectos-button {
+    margin-left: 0.5vh;
+    font-size: 1.3rem;
+    font-family: "Poppins";     
+}
+
+/* DIVISOR */
+/* DIVISOR */
+/* DIVISOR */
+
+
+.line_container {
+    padding: 10% 5% 0% 5%;
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+
+.lines_left, .lines_right{
+    content: "";
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    width: 25%;
+    top: 45%;
+}
+
+.lines::after {
+    left: 0;
+}
+
+.lines::before {
+    right: 0;
+}
+
+.lines_middle {
+
+}
+
+/* HABILIDADES */
+/* HABILIDADES */
+/* HABILIDADES */
+
+.skills_section {
+    align-items: center;
+}
+
+
+.skills_title {
+    text-align: center;
+    color: white;
+    font-family: "Poppins"; 
+    font-size: 1.5rem;
+    font-style: normal;
+    margin: 0 4% 0 4%;
+}
+
+.skills_container {
+    color: rgb(255, 255, 255);
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    padding: 5% 10% 10% 10%;
+}
+
+.skills_design {
+    display: flex;
+    flex-direction: column;   
+    border: 0.7vh solid rgb(160, 74, 240);
+    border-radius: 10px;
+    padding: 5%;
+    width: 32vh;
+    justify-content: space-between;
+}
+
+
+.skills_developer {
+    border: 0.7vh solid rgb(160, 74, 240);
+    border-radius: 10px;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5vh;
+    width: 32vh;
+    
+}
+
+.skills_icon {
+    display: flex;
+    align-items: center;
+}
+
+.skills_icon p {
+    margin-left: 7%;
+    margin-bottom: 0.5vh;
+}
+
+.skills_icon svg {
+    display: block;
+}
+
+
+/* SOBRE MÍ */
+/* SOBRE MÍ */
+/* SOBRE MÍ */
+
+
